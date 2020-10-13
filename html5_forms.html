@@ -1,0 +1,26 @@
+<!-- I watched the html YouTube video of 생활코딩 and wrote the code. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form action="form.php">
+<!-- 사용자가 입력칸에 숫자만 입력할 수 있게 규제하는 타입 -->
+        <input type="number">
+<!-- 사용자가 사용할 수 있는 숫자를 지정할 수 있다 -->
+        <p><label>number : <input type="number" min="8" max="19"></label></p>
+        <label>date : <input type="date" name="datev"></label>
+        <p><label>month : <input type="month" name="monthv"></label></p>
+        <label>week : <input type="week" name="weekv"></label>
+        <p><label>time : <input type="time" name="timev"></label></p>
+        <label>email : <input type="email" name="emailv"></label>
+        <p><label>search : <input type="search" name="searchv"></label></p>
+        <label>tel number : <input type="tel" name="telv"></label>
+        <p><label>url : <input type="url" name="urlv"></label></p>
+        <label>range : <input type="range" name="rangev"></label>
+        <input type="submit">
+    </form>
+</body> 
+</html>
